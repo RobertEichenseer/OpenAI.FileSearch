@@ -8,9 +8,15 @@ It augments the Assistant with knowledge from outside its model and allows dynam
 
 Multiple different document types like *.docx, *.pptx, *.txt, *.pdf, *.md etc. are supported and can be easily uploaded.
 
+The example in this repo showcases:
+
 ![Overview](./media/img/overview.png)
 
-This allows for add-hoc and temporary provided information to a specific LLM completion.
+- Upload of two .txt files with grounding information to an Azure OpenAI instance
+- Creation of a `VectorStore` containing the uploaded .txt files
+- Creation of an `Assistant` which can suggest preferred restaurants based on the content of the .txt files
+- Creation of a `Thread` being aware of the documents within the created `VectorStore`
+- Creation of a `Run` which uses the information within the `VectorStore` as grounding information to create a completion. 
 
 ## Repo Content
 
