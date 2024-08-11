@@ -2,15 +2,15 @@
 
 ## Overview
 
-The OpenAI Assistants API File Search Tool is designed to empower assistants with the ability to access and retrieve information from ***uploaded files*** seamlessly without further preparation like embedding.
+The OpenAI Assistants API File Search Tool is designed to empower assistants with the ability to access and retrieve information from ***uploaded files*** seamlessly without further preparation like embedding, chunking etc. Those documents can be added to ground completion requests.
 
-It augments the Assistant with knowledge from outside its model.
+It augments the Assistant with knowledge from outside its model and allows dynamically providing information in documents on the fly.
 
-Multiple different document types like *.docx, *.pptx, *.txt, *.pdf, *.md etc. can be uploaded without the need of further preparation like embedding, chunking etc. Those documents will be added to ground completion requests to a LLM.
+Multiple different document types like *.docx, *.pptx, *.txt, *.pdf, *.md etc. are supported and can be easily uploaded.
 
 ![Overview](./media/img/overview.png)
 
-Files can be easily uploaded and added to e.g. Threads, Assistants, or Runs. This allows for add-hoc and temporary provided information to a specific LLM completion.
+This allows for add-hoc and temporary provided information to a specific LLM completion.
 
 ## Repo Content
 
